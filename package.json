@@ -1,0 +1,93 @@
+{
+  "name": "three-js",
+  "version": "0.1.0",
+  "homepage": "https://kagamma.github.io/3deditor/",
+  "private": true,
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react-app": "^3.0.8",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "ra-data-fakerest": "^2.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "gh-pages": "^2.1.1",
+    "material-ui-color-picker": "^3.2.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-admin": "^2.9.5",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "three": "~0.106.2",
+    "three-js-csg": "~72.0.0",
+    "three-obj-mtl-loader": "~1.0.3",
+    "three.js-vr": "^0.0.0",
+    "three.meshline": "^1.2.0",
+    "threejs-slice-geometry": "^0.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:ci": "eslint src/**/*.js -o test/eslint.xml -f junit"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "import",
+      "prettier"
+    ],
+    "extends": [
+      "react-app",
+      "airbnb",
+      "prettier",
+      "prettier/react"
+    ],
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "import/prefer-default-export": 0,
+      "jsx-a11y/click-events-have-key-events": 0,
+      "react/jsx-filename-extension": 0,
+      "import/no-extraneous-dependencies": 0,
+      "no-console": 0,
+      "react/jsx-closing-bracket-location": 2,
+      "no-confusing-arrow": 0,
+      "jsx-a11y/label-has-for": 0,
+      "react/no-array-index-key": 0,
+      "no-mixed-operators": 0,
+      "react/no-did-mount-set-state": 0,
+      "react/require-default-props": 0,
+      "prettier/prettier": [
+        "error",
+        {
+          "trailingComma": "es5",
+          "singleQuote": true,
+          "printWidth": 120
+        }
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
