@@ -24,7 +24,7 @@
     "react-admin": "^2.9.5",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "three": "~0.106.2",
+    "three": "~0.125.0",
     "three-js-csg": "~72.0.0",
     "three-obj-mtl-loader": "~1.0.3",
     "three.js-vr": "^0.0.0",
